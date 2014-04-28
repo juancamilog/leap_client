@@ -1,0 +1,8 @@
+std_msgs/Header header
+int32 hand_id
+int32 id
+float32 time_visible
+geometry_msgs/Point tip_position
+geometry_msgs/Vector3 tip_velocity
+geometry_msgs/Vector3 pointing_direction
+geometry_msgs/Point stabilized_tip_position

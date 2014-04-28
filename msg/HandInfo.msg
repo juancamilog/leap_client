@@ -1,0 +1,9 @@
+std_msgs/Header header
+int32 id
+float32 time_visible
+geometry_msgs/Pose pose
+geometry_msgs/Vector3 velocity
+float32 sphere_radius
+geometry_msgs/Point sphere_center
+geometry_msgs/Pose stabilized_pose
+FingerInfo[] fingers
