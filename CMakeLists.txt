@@ -12,7 +12,7 @@ find_package(catkin REQUIRED COMPONENTS roscpp geometry_msgs std_msgs genmsg tf 
 # PATH TO LEAPSDK
 set(LEAPSDK $ENV{LEAPSDK})
 if(NOT LEAPSDK)
-    message(FATAL ERROR " The LEAPSDK environment variable is not set")
+    message(FATAL ERROR " The LEAPSDK environment variable is not set!")
 endif()
 
 ## Generate messages in the 'msg' folder

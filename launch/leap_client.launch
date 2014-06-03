@@ -2,7 +2,7 @@
     <arg name="ns" default="leap"/>
     <arg name="hands_topic" default="hand_info"/>
     <node pkg="leap_client" type="leap_client_node" name="$(arg ns)">
-        <param name="refresh_rate" type="double" value="50.0"/>
+        <param name="refresh_rate" type="double" value="200.0"/>
         <param name="hands_topic" type="str" value="$(arg hands_topic)"/>
     </node>
     <node pkg="leap_client" type="leap_viz" name="leap_viz">
