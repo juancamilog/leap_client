@@ -49,9 +49,9 @@ add_executable(leap_client_node src/leap_client_node.cpp)
 target_link_libraries(leap_client_node ${catkin_LIBRARIES} leap_ros_listener)
 add_dependencies(leap_client_node leap_client_gencpp)
 
-add_executable(static_twist_controller src/static_twist_controller.cpp)
-target_link_libraries(static_twist_controller ${catkin_LIBRARIES})
-add_dependencies(static_twist_controller leap_client_gencpp)
+#add_executable(static_twist_controller src/static_twist_controller.cpp)
+#target_link_libraries(static_twist_controller ${catkin_LIBRARIES})
+#add_dependencies(static_twist_controller leap_client_gencpp)
 
 add_executable(leap_viz src/leap_viz.cpp)
 target_link_libraries(leap_viz ${catkin_LIBRARIES})
