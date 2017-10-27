@@ -15,4 +15,13 @@ to my ~/.bashrc file, because I copied the LeapSDK folder into ~/lib. The LeapSD
 
 To run, execute "roslaunch leap_client leap_client.launch"
 
-To visualize the data run "rosrun rviz rviz" and load the rviz config file "launch/leap_client.rviz"
+To visualize the data run ```rosrun rviz rviz``` and load the rviz config file ```launch/leap_client.rviz```. This can also be done by running
+```
+rosrun rviz rviz -d PATH_TO_YOUR_WORKSPACE/src/leap_client/launch/leap_client.rviz
+```
+
+In Ubuntu 15.04 or newer, you might need to start the leap driver manualy. You can do this by running
+
+```
+    sudo leapd
+```
